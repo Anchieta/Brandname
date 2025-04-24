@@ -1,0 +1,72 @@
+@import url('./global.css');
+
+header {
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid green;
+    /* width: 1322px; */
+    width: 100%;
+    min-height: 91px;
+}
+.logo {
+    width: 187px;
+    height: 58;
+    margin: 17px 201px 16px 106px;
+}
+nav {
+    margin-top: 33px;
+
+}
+.login {
+    margin-top: 20px;
+}
+.login a {
+    color: var(--color-primary);
+    font-size: var(--font-size-14);
+    font-weight: var(--font-weight-bold);
+    margin-right: 45px;
+}
+.login button {
+    color: var(--color-light-text);
+    background-color: var(--color-primary);
+    padding: 15px 15px 15px 25px;
+    border-radius:  5px;
+}
+nav ul {
+    width: 494px;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+ul {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+    color: var(--color-secondary);
+    font-size: var(--font-size-14);
+    font-weight: var(--font-weight-bold);
+}
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    border: 1px solid red;
+}
+.main-text h2 {
+    text-transform: uppercase;
+    color: var(--color-text-color);
+    font-size: var(--font-size-58);
+    font-weight: var(--font-weight-bold);
+    width: 542px;
+}
+.main-text p {
+    color: var(--color-secondary);
+    font-size: var(--font-size-20);
+    margin-top: 30px;
+    width: 458px;
+}
+.main-img-btn {
+    margin-top: 30px;
+}
